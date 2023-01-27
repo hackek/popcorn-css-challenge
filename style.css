@@ -3,3 +3,42 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+/*Sets the upper half border and colors*/
+#main {
+  background-color: #D4A76A;
+  border: 2px dotted black;
+  display: flex;
+  align-items: center;
+}
+
+/*Sets the website title color*/
+h1 {
+  margin: 0;
+  color: #805215;
+}
+
+/*Sets the button color*/
+button {
+  background-color: #805215;
+  color: white;
+  margin-left: auto;
+}
+
+/*Sets the field color of the website upper half*/
+fieldset.top {
+  background-color: #FFDBAA;
+  margin: 0;
+}
+
+/*Sets the field color of the website lower half*/
+fieldset.bottom {
+  background-color: #D4A76A;
+  margin: 0;
+}
+
+/*Sets the field color of the website text boxes*/
+fieldset {
+  background-color:white;
+}
+
